@@ -136,12 +136,52 @@
 .skill-item p{
   margin:0;
   text-align: center;
+  font-size:0.8rem;
 }
 
 .skill-item i{
   color:#c9a04f;
   text-align: center;
 }
+.social-links i:hover{
+  color:#c9a04f
+}
+.mdi-facebook {
+  color: #4267b2;
+}
+.mdi-linkedin{
+ color: #0077b5	
+}
+.mdi-github{
+  color: #171515
+}
+
+.social{
+  text-align: center;
+}
+.social:after{
+  background: #fff;
+  content: 'Social';
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+
+.skills{
+  text-align: center;
+}
+
+.skills:after{
+  background: #fff;
+  content: 'Skills';
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+
+/* .skill-row{
+  width: 95%;
+} */
 /*----------------------------*/
 /*---------Services---------------*/
 /*----------------------------*/
@@ -205,6 +245,11 @@
   padding-bottom: 70px;
 }
 
+.work-box img{
+  height: 200px;
+  width: 100%;
+}
+
 .work .list-filter {
   margin-bottom: 30px;
   padding: 0;
@@ -241,7 +286,6 @@
 
 .work-box {
   position: relative;
-  /* max-height: 200px; */
   margin-bottom: 50px;
   overflow: hidden;
   display: block;
@@ -252,6 +296,7 @@
 .work-box a {
   display: inline-block;
   position: relative;
+  width: 100%;
 }
 
 .work-box:hover .work-overlay {
@@ -265,7 +310,6 @@
 
 .work-box:hover .work-img {
   transform: scale(1);
-  width: 100%;
   transition: all 2s linear;
 }
 
@@ -349,6 +393,9 @@
     margin: 4px 5px;
     font-size: 14px;
   }
+  .skill-item p{
+    font-size:12px
+  }
 }
 
 @media only screen and (max-width: 601px) {
@@ -359,6 +406,7 @@
   .home p {
     font-size: 18px;
   }
+
 }
 
 @media only screen and (max-width: 455px) {
